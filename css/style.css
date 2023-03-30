@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans';
+}
+/* table{
+  border-collapse: collapse;
+  margin: 50px;
+}
+table,th,tr,td{
+  padding: 8px;
+  border: 1px solid red;
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ */
+
+
+.container{
+  width: 1440px;
+  /* padding: 0 3%; */
+  margin: auto;
+  padding: auto;
+}
+.site_header-wrapper{
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header-nav{
+  display: flex;
+  gap: 38px;
+}
+.nav-links{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  text-decoration: none;
+}
+.nav-links:hover{
+  text-decoration: underline;
+}
+.site-hero{
+  margin-top: 85px;
+}
+.site-hero-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-img{
+
+}
+.hero-text{
+
+}
+.hero-title{
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 139%;
+  letter-spacing: 0.02em;
+  color: #E5A985;
+  width: 603px;
+}
+.hero-description{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 41px;
+  letter-spacing: 0.02em;
+  color: #4A4747;
+  width: 576px;
+  margin: 39px 0 67px 0;
+}
+
+.hero-input{
+  padding: 15px 10px;
+  width: 455px;
+  border: none;
+  outline: none;
+  background: #E5E5E5;
+  border-radius: 8px 0px 0px 8px;
+
+}
+.hero-btn{
+  background: #91916C;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  padding: 10px 23px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
